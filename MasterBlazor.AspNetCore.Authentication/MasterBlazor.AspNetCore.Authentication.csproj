@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Title>MasterBlazor.AspNetCore.Authentication</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.CookiePolicy" Version="2.2.8" />
+	  
+	  
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MasterBlazor.AspNetCore.Authentication.PingFederate\MasterBlazor.AspNetCore.Authentication.PingFederate.csproj" />
+  </ItemGroup>
+
+</Project>
